@@ -1,0 +1,38 @@
+@import url(all.css);
+div.content {
+    display: inline-table;
+    width: 100%;
+    background: white;
+}
+div.content table {
+    display: contents;
+}
+div.content td {
+    border-right: 2px dotted #e6e7eb;
+    color: #666;
+    font-size: 14px;
+    border-bottom: 2px dotted #e6e7eb;
+    text-align: center;
+}
+tr.filters {
+    background: #fafbfc;
+    position: sticky;
+    top: 0;
+    /*box-shadow: 0 0 15px -12px black;*/
+}
+tr.filters td {
+    height: 40px;
+    color: black !important;
+    border-bottom: 1px solid #e6e7eb;
+    border-right: 1px solid #e6e7eb;
+}
+tr.filters td.dd {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #f4f4f4;
+    border: unset;
+}
+input[type="text"] {
+    padding: 10px;
+}

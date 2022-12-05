@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+*, *:hover, *:after, *:before {
+    margin: 0;
+    transition: .3s ease;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f4f4;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+input {
+    border: unset;
+}
+a {
+    text-decoration: none;
+    color: #666;
+    cursor: pointer;
+}
+a:hover, a:active, a:focus {
+    background: #ccc;
+}

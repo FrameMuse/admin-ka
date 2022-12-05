@@ -1,0 +1,44 @@
+@import url(all.css);
+.cr {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+nav.head {
+    background: #23b798;
+    display: flex;
+}
+nav.head a img {
+    max-width: 75px;
+    height: auto;
+}
+nav.head a {
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Arial;
+    color: #414141;
+}
+main {
+    padding: 40px 0;
+}
+div.sidebar {
+    float: right;
+    max-width: calc(23% - 10px);
+    background: #e6e6e6;
+    position: sticky;
+    top: 0;
+}
+nav.sidebar {
+    display: grid;
+}
+nav.sidebar a {
+    padding: 10px 20px;
+    color: #5d5858;
+}
+nav.sidebar a:focus, a:active {
+    background: #f4f4f4;
+    border-left: 2px solid #f65f5f;
+}
+iframe {
+    height: calc((var(--var-ass) - 1)*2px + var(--var-ass)*40px);
+}

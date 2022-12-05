@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: .3s ease-in;
+}
+a {
+    text-decoration:  none;
+    color:  #666;
+}
+main {
+    background: linear-gradient(90deg, #4cb8d1, #4ca0d1);
+    display: flow-root;
+    text-transform:  uppercase;
+    box-shadow:  0 0 15px -6px black;
+}
+main a {
+    color: #262626;
+    text-decoration:  none;
+    font-family: MONOSPACE;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 20px;
+    float: right;
+}
+main a:hover {
+    background: rgba(0,0,0,0.15);
+    color:  #e6e6e6;
+}
+.profile {
+    float:  left;
+    padding: 15px;
+    margin: 0 40px;
+    border-radius:  0;
+}
+.profile-more {
+    display: inline-grid;
+    position:  absolute;
+    top: -4em;
+    left: 40px;
+    z-index:  -1;
+    width: 10%;
+    background: rgba(84, 177, 221, 0.4);
+}
+.profile-more a {
+    float: none;
+    margin: 0;
+    padding: 10px;
+    border-radius:  0;
+}
+.profile:hover ~ .profile-more, .profile-more:hover {
+    top: 3em;
+}
